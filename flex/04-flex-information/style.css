@@ -8,8 +8,30 @@ img {
 }
 
 .title {
+  
   font-size: 36px;
   font-weight: 900;
+  /*modify*/
+  text-align: center;
+}
+
+/*modify*/
+
+.info-container {
+  margin-top: 32px;
+  gap: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.info-items div {
+  text-align: center;
 }
 
 /* do not edit this footer */
