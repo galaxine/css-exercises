@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /*trying to change the body*/
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -48,7 +52,19 @@ just be filled halfway*/
 
 .left-links li a, .right-links li a {
   text-decoration: none;
-  color: rgb(187, 187, 182);
+  color: rgb(129, 129, 129);
 }
+
+
+.footer {
+  background-color: #dddddd;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+
 
 
