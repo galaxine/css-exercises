@@ -38,6 +38,7 @@ just be filled halfway*/
 .header {
   display: flex;
   justify-content: space-between;
+  padding:10px
 }
 
 .left-links, .right-links {
@@ -56,9 +57,29 @@ just be filled halfway*/
 }
 
 
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:150px ;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
 .footer {
   background-color: #dddddd;
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer .right-links {
+  margin-right: 40px;
 }
 
 .content {
