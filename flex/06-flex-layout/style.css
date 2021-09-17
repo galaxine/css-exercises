@@ -30,7 +30,25 @@ input {
 Put every container that needs to be flexed into flex position*/
 /*Secondly, i want the whole screen to be filled and not
 just be filled halfway*/
+/*first we set up the header and it's children*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 
+.left-links, .right-links {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
 
+.header .right-links {
+  margin-right: 40px;
+}
+
+.left-links li a, .right-links li a {
+  text-decoration: none;
+  color: rgb(187, 187, 182);
+}
 
 
